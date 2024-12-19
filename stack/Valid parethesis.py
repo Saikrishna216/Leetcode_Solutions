@@ -8,7 +8,7 @@
 class Solution:
     def isValid(self, s: str) -> bool:
 
-        #create empty stack
+        
         stack = []
         #keys left, values right
         mapping = {')':'(','}':'{',']':'['}
